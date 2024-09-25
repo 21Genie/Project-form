@@ -1,0 +1,22 @@
+@include font-face(
+  "Manrope",
+  500,
+  normal,
+  (url("../fonts/manrope/Manrope-Medium.woff2") format("woff2"),
+  url("../fonts/manrope/Manrope-Medium.woff2") format("woff"))
+);
+@include font-face(
+  "Manrope",
+  400,
+  normal,
+  (url("../fonts/manrope/Manrope-Regular.woff2") format("woff2"),
+  url("../fonts/manrope/Manrope-Regular.woff") format("woff"))
+);
+@include font-face(
+  "Manrope",
+  300,
+  normal,
+  (url("../fonts/manrope/Manrope-Light.woff2") format("woff2"),
+  url("../fonts/manrope/Manrope-Light.woff") format("woff"))
+);
+
